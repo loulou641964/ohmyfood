@@ -303,6 +303,10 @@ footer i {
 	}
 }
 @media screen and (min-width: 1024px) {
+	img{
+		object-fit: cover;
+		
+	}
 	footer img {
 		width: 15%;
 		height: auto;

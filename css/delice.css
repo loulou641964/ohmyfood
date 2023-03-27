@@ -121,6 +121,7 @@ h3 {
 	margin-left: 30px;
 	font-size: 22px;
 }
+
 .categorie_menu {
 	color: grey;
 	border-bottom: 2px solid #99E2D0;
@@ -303,9 +304,12 @@ footer i {
 	}
 }
 @media screen and (min-width: 1024px) {
+	img{
+		object-fit: cover;
+	}
 	footer img {
 		width: 15%;
-		height: auto;
+		height:auto;
 	}
 	#logo {
 		margin: auto;
